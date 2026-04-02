@@ -1,0 +1,214 @@
+:root{
+    --papa: #ffeecf;
+    --tan: #c9a690;
+    --rose: #d36582;
+    --reg-nav: #253c78;
+    --laser: #2b59c3;
+}
+
+body{
+    background-color: var(--papa);
+    background-image: linear-gradient(0deg, var(--papa) 50%, var(--tan) 50%);
+    background-size: 4px 4px;
+}
+
+header{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--rose);
+    color: var(--reg-nav);
+    border-radius: 25px;
+    border: 7.5px solid var(--reg-nav);
+}
+
+header h1{
+    font-size: 2.5rem;
+    font-family: "Barriecito";
+}
+
+header p{
+    font-family: "funnel sans";
+}
+
+nav{
+    width: 60%;
+    margin: 1rem auto;
+    background-color: var(--laser);
+    padding: 1rem;
+    border-radius: 25px;
+    border: 7.5px solid var(--reg-nav);
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0; 
+    align-items: center;
+    justify-content: center;
+}
+
+nav li{
+    text-align: center;
+    list-style-type: none;
+}
+
+nav a{
+    background-color: var(--rose);
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 2px dotted var(--papa);
+    text-decoration: none;
+    font-family: "funnel sans";
+    color: var(--papa);
+}
+
+nav a:hover{
+    background-color: var(--papa);
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 2px dotted var(--rose);
+    text-decoration: none;
+    font-family: "funnel sans";
+    color: var(--rose);
+    transition: 0.5s;
+}
+
+main{
+    width: 60%;
+    margin: auto;
+}
+
+main section{
+    margin-bottom: 1rem;
+}
+
+main h2{
+    font-family: "barriecito";
+    text-align: center;
+    font-size: 2rem;
+    color: var(--papa);
+}
+
+#projects{
+    background-color: var(--rose);
+    padding: 3rem;
+    border-radius: 25px;
+    border: 7.5px solid var(--reg-nav);
+}
+
+#projects ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    padding: 0;
+}
+
+#projects a{
+    text-decoration: none;
+}
+
+#projects a img{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#projects a figure{
+    display: block;
+    border: 3px solid var(--tan);
+    border-radius: 10px;
+    background-color: var(--papa);
+}
+
+#projects a:hover figure{
+    padding: 1rem;
+    transition: 0.5s;
+    display: block;
+    border: 3px solid var(--tan);
+    border-radius: 10px;
+    background-color: var(--papa);
+}
+
+#projects a figcaption{
+    padding: 1rem 0.5rem;
+    text-align: center;
+    align-content: center;
+    color: var(--reg-nav);
+    font-family: "funnel sans";
+}
+
+#education{
+    background-color: var(--laser);
+    padding: 3rem;
+    border-radius: 25px;
+    border: 7.5px solid var(--reg-nav);
+}
+
+#edgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+#edgrid div{
+    background-color: var(--papa);
+    border-radius: 25px;
+    border: 5px dotted var(--rose);
+    padding: 1rem;
+}
+
+div h3{
+    font-family: "barriecito";
+    color: var(--laser)
+}
+
+div li, div p{
+    font-family: "funnel sans";
+    color: var(--rose);
+}
+
+#contact{
+    background-color: var(--rose);
+    padding: 3rem;
+    border-radius: 25px;
+    border: 7.5px solid var(--reg-nav);
+}
+
+#contact p{
+    text-align: center;
+    font-family: "funnel sans";
+    color: var(--reg-nav)
+}
+
+#contact a{
+    color: var(--laser)
+}
+
+footer{
+    width: 70%;
+    margin: auto;
+    background-color: var(--laser);
+    padding: 2rem;
+    border-radius: 25px;
+    border: 7.5px solid var(--reg-nav);
+}
+
+footer p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--papa);
+    font-family: "barriecito";
+}
