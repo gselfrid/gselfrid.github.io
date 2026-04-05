@@ -1,7 +1,12 @@
-
+:root{
+    --bg: #a0acad;
+    --card: #97d8b3;
+    --h1: #531253;
+    --text: #33032f;
+}
 
 body{
-    background-color: aqua;
+    background-color: var(--bg);
 }
 
 .card{
@@ -10,7 +15,7 @@ body{
     height: 750px;
     padding: 36px;
     border-radius: 12px;
-    background-color: pink;
+    background-color: var(--card);
     box-shadow: 10px 10px;
 }
 
@@ -22,15 +27,19 @@ body{
 }
 
 .card h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Bitcount Grid Double", sans-serif;
+    color: var(--h1);
     text-align: center;
 }
 
 .card p{
+    font-family: sans-serif;
     text-indent: 2rem;
+    color: var(--text);
 }
 
 button{
+    font-family: "Bitcount Grid Double", sans-serif;
     padding: 10px;
     display: block;
     margin: 3rem auto;
