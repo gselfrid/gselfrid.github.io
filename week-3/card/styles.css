@@ -1,0 +1,39 @@
+
+
+body{
+    background-color: aqua;
+}
+
+.card{
+    margin: 15rem auto;
+    width: 500px;
+    height: 750px;
+    padding: 36px;
+    border-radius: 12px;
+    background-color: pink;
+    box-shadow: 10px 10px;
+}
+
+.card img{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+
+.card h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.card p{
+    text-indent: 2rem;
+}
+
+button{
+    padding: 10px;
+    display: block;
+    margin: 3rem auto;
+    font-size: 2rem;
+}
+
