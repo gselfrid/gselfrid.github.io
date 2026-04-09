@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Site</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Keys To Responsive CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="#grid">Grids</a></li>
+                <li><a href="#position">Position</a></li>
+                <li><a href="#flex">Flex</a></li>
+                <li><a href="#response">Responsive</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="grid">
+            <h2>CSS Grids</h2>
+            <div class="info">
+                <p>Grids are very useful, especially when you want to align your content differently depending on the size of the screen!</p>
+                <p>You can change how many grid columns and rows there are, or even how many columns or rows different pieces of information take up!</p>
+            </div>
+            <section id="divgrid">
+                <div>
+                    <img src="images/dog.jpg" alt="random">
+                    <p>You might be seeing this...</p>
+                </div>
+                <div>
+                    <img src="images/hamster.jpg" alt="random">
+                    <p>...in a 2x2 grid!</p>
+                </div>
+                <div>
+                    <img src="images/yoshi.jpg" alt="random">
+                    <p>You might be seeing this...</p>
+                </div>
+                <div>
+                    <img src="images/randomdude.jpg" alt="random">
+                    <p>...in a 1x4 grid!</p>
+                </div>
+            </section>
+        </section>
+        <section id="position">
+            <h2>CSS Positioning</h2>
+            <div class="info">
+                <p>You can see, the top navigation is stuck at the top of the screen when you scroll!  This is due to positioning!</p> 
+                <p>Positioning is helpful for many things, especially in determining different elements relations to each other in the browser.</p>
+            </div>
+        </section>
+        <section id="flex">
+            <h2>CSS Flexbox</h2>
+            <div class="info">
+                <p>Flexbox can give a similar vibe to grid if you only want essentially one row of columns!  You've been seeing this in action the whole time!</p>
+                <p>The navigation buttons are all side by side using flex in css!</p>
+            </div>
+        </section>
+        <section id="response">
+            <h2>Responsive CSS</h2>
+            <div class="info">
+                <p>Not all screens are built equal, so one version of a browser isn't going to look right in every single one!  This is where Responsive CSS comes in!</p>
+                <p>Using @media, we can tell our code, "Hey!  When the screen is this big, layout the items like this!"  Depending on your device, the @media function is being used right now!</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
