@@ -6,29 +6,35 @@
     <title>Document</title>
     <script src="./data.js" defer></script>
     <script src="./script.js" defer></script>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Grocery/Meal Prep time</h1>
+        <h1>Meal Prep time</h1>
         <p>Select which meal you would like!</p>
     </header>
-    <nav>
-        <h2>Meal Ideas</h2>
-        <div class="meals-list">
-            <button id="spaghetti">Spaghetti</button>
-            <button id="tacos">Tacos</button>
-            <button id="fried-rice">Fried Rice</button>
-        </div>
+    <main>
+        <section id="nav">
+            <h2>Meal Ideas</h2>
+            <div class="meals-list">
+                <button id="spaghetti">Spaghetti</button>
+                <button id="tacos">Tacos</button>
+                <button id="fried-rice">Fried Rice</button>
+            </div>
+        </section>
         <div class="should">
             <p id="try">What do you want to try?</p>
         </div>
         <div class="the-meal">
             <h2 id="food-name"></h2>
-            <div>
+            <div class="food-flex">
                 <div id="food-img"></div>
                 <ul id="food-recipe"></ul>
             </div>
         </div>
-    </nav>
+    </main>
+    <footer>
+        <p>Happy Cooking!</p>
+    </footer>
 </body>
 </html>

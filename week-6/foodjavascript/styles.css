@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fascinate&display=swap');
+
+:root{
+    --graphite: #2f4fa6;
+    --slate: #331f4e;
+    --powder: #95b8d1;
+    --pearl: #f0e8c9;
+    --cherry: #edafb8;
+}
+
+body{
+    background-color: var(--slate);
+}
+
+h1, h2, footer p{
+    font-family: "Fascinate", serif;
+}
+
+button, li, header p, .should p{
+    font-family: "Averia Sans Libre", sans-serif;
+    font-weight: bold;
+}
+
+header{
+    width: 60%;
+    height: 100%;
+    top: 0;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    background-color: var(--cherry);
+    color: var(--slate);
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border: 7px solid var(--graphite);
+}
+
+header h1{
+    font-size: 3rem;
+}
+
+header p{
+    font-size: 2rem;;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#nav{
+    background-color: var(--pearl);
+    width: 50%;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 100px;
+    border: 7px solid var(--graphite);
+}
+
+#nav h2{
+    color: var(--slate)
+}
+
+.meals-list{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meals-list button{
+    display: block;
+    margin: 0.5rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 50px;
+    background-color: var(--powder);
+    border: 4px solid var(--cherry);
+    color: var(--graphite);
+}
+
+.meals-list button:hover{
+    display: block;
+    margin: 0.5rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-radius: 50px;
+    background-color: var(--cherry);
+    border: 4px solid var(--powder);
+}
+
+.should{
+    background-color: var(--powder);
+    width: 40%;
+    margin: auto;
+    padding: 0.25rem;
+    border: 7px solid var(--graphite);
+    border-radius: 100px;
+}
+
+.should p{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--slate);
+}
+
+.the-meal{
+    width: 50%;
+    margin:1rem auto;
+    background-color: var(--pearl);
+    padding: 1rem;
+    border-radius: 100px;
+    border: 7px solid var(--graphite);
+}
+
+.the-meal h2{
+    font-size: 2rem;
+    color: var(--graphite);
+}
+
+.food-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.food-flex div img{
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px var(--graphite);
+    display: block;
+    margin: auto 2rem;
+}
+
+.food-flex ul{
+    padding: 1rem;
+    display: block;
+    list-style: disc;
+    list-style-position: inside;
+    margin: auto;
+    background-color: var(--cherry);
+    color: var(--slate);
+    border-radius: 20px;
+    box-shadow: 4px 4px 4px var(--graphite);
+}
+
+.food-flex ul li{
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color: var(--cherry);
+    width: 60%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border: 7px solid var(--graphite);
+}
+
+footer p{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--slate);
+}
